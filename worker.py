@@ -61,7 +61,6 @@ def text_to_speech(text, voice=""):
         speech = tts_model.generate_speech(
             inputs["input_ids"], 
             speaker_embeddings=None,
-            vocoding_steps=150
         )
         
         # Convert to bytes
