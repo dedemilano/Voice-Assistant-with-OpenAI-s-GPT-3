@@ -7,6 +7,7 @@ This project implements a voice assistant using OpenAI's GPT-3 model for natural
 - **Speech-to-Text**: Converts spoken audio into text using the Whisper model.
 - **Text-to-Speech**: Converts text into spoken audio using the SpeechT5 model.
 - **Natural Language Processing**: Processes user messages and provides responses using OpenAI's GPT-3 model.
+- **Web Interface**: A Flask web server to handle speech-to-text and text-to-speech conversions and process user messages.
 
 ## Installation
 
